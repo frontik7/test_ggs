@@ -101,10 +101,15 @@ awk '{print$1}' test.txt | sort | uniq -c | sort -n | tail -n 1
 
 -  Top 3 IP addresses by amount of POST requests.  
 
+```
+grep POST test.txt | awk '{print$1}' | sort | uniq -c | sort -n | tail -n3
+```
 
 -  Which IP addresses received 403 error ?  
 
-
+```
+grep ' 403 ' test.txt | awk '{print$1}'
+```
 - Task with * . Write script to show which pages Google checked from the website  
 
 Скрипт [тут](https://github.com/frontik7/test_ggs/blob/main/script.sh)
