@@ -1,5 +1,5 @@
 #!/bin/bash
 
-now="$(date)"
+now=$(date +'%d/%m/%Y')
 
-echo "current date and time" "$now"
+echo "current date" "$now"
