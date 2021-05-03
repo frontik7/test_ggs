@@ -9,7 +9,7 @@ mkdir test1
 - Create file test1.txt inside the test1 directory.  
 
 ```
-touch test1.text
+touch test1.txt
 ```
 
 - Create copy of folder test1 with name test2.  
