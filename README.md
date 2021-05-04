@@ -113,3 +113,10 @@ grep ' 403 ' test.txt | awk '{print$1}'
 - Task with * . Write script to show which pages Google checked from the website  
 
 Скрипт [тут](https://github.com/frontik7/test_ggs/blob/main/script.sh)
+
+## Docker basic 
+
+Create Dockerfile which has following image :
+
+- Starting web server on port 8000
+- showing the simple html file on the following link : http://localhost:8000/homework.html
