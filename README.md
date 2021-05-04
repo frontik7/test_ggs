@@ -118,6 +118,6 @@ grep ' 403 ' test.txt | awk '{print$1}'
 
 Create Dockerfile which has following image :
 
-- Starting web server on port 8000
-- Make app folder with html file. Setup this folder as root foler for your web server. 
-- showing the simple html file on the following link : http://localhost:8000/homework.html
+- web server on port 8000
+- copy app folder with html file 
+- The file from app folder should be accessible via following link  : http://localhost:8000/homework.html
