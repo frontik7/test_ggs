@@ -121,3 +121,13 @@ Create Dockerfile which has following image :
 - web server on port 8000
 - copy app folder with html file 
 - The file from app folder should be accessible via following link  : http://localhost:8000/homework.html
+
+## Replace
+
+Replace IP address with most requests on 127.0.0.1 in test.txt file
+
+```
+sed -i "s/$114.119.140.234/$127.0.0.1/" test.txt
+awk '{print$1}' test.txt | sort | uniq -c | sort -n | tail -n 1
+     16 127.0.0.1
+```
